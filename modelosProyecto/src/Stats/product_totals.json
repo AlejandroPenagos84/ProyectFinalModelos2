@@ -1,0 +1,32 @@
+[
+  {
+    "percentage": 17.62250453720508,
+    "product_line": "Electronic accessories",
+    "total_quantity": 971
+  },
+  {
+    "percentage": 16.370235934664244,
+    "product_line": "Fashion accessories",
+    "total_quantity": 902
+  },
+  {
+    "percentage": 17.277676950998185,
+    "product_line": "Food and beverages",
+    "total_quantity": 952
+  },
+  {
+    "percentage": 15.499092558983666,
+    "product_line": "Health and beauty",
+    "total_quantity": 854
+  },
+  {
+    "percentage": 16.533575317604356,
+    "product_line": "Home and lifestyle",
+    "total_quantity": 911
+  },
+  {
+    "percentage": 16.696914700544465,
+    "product_line": "Sports and travel",
+    "total_quantity": 920
+  }
+]

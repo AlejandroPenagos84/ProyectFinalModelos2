@@ -1,0 +1,22 @@
+.statsCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 65%;
+}
+
+h2 {
+  padding: 0;
+}

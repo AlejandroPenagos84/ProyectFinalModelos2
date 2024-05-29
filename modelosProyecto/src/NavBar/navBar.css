@@ -1,0 +1,51 @@
+.nav-Container{
+    background-color: #070F2B;
+    padding: 30px;
+    height: 5%;
+    display: flex;
+    
+}
+
+.btnMenu {
+    flex: 3;
+}
+
+.sideBar_button{
+    color: #FFFFFF;
+    background-color: #070F2B ;
+    border: none;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.sideBar_button:hover{
+    background-color: #1B1A55;
+    cursor: pointer;
+    border-bottom:2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+.program-button{
+    color: #FFFFFF;
+    background-color: #070F2B ;
+    border: none;
+    font-size: 22px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+.program-button:hover{
+    background-color: #1B1A55;
+    cursor: pointer;
+    border-bottom:2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+.form{
+    flex: 1;
+
+}
