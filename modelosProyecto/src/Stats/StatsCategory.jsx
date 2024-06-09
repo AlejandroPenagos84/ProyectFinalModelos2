@@ -40,23 +40,26 @@ const PieChart = () => {
   }, []);
 
   return (
-    <div className="statsCategory">
-      <h2>Categorias</h2>
-      <Pie
-        data={chartData}
-        ref={chartRef}
-        width={"600%"}
-        options={{
-          plugins: {
-            legend: {
-              labels: {
-                color: "white", // Cambia el color del texto de la leyenda a blanco
+    <>
+      <p className="descriptionCategory">El gráfico de pastel (pie chart) que se presenta a continuación muestra una visualización clara y concisa de las categorías de productos vendidas. Cada sección del gráfico representa una categoría de productos, y el tamaño de cada sección es proporcional a la cantidad total de ventas de esa categoría. Para crear este gráfico, primero se filtraron y contaron las ventas por cada categoría a partir de los datos de ventas generales. Luego, se utilizaron estos datos para configurar el gráfico, asignando colores distintos a cada categoría para facilitar la diferenciación visual. Este tipo de gráfico es ideal para destacar la distribución de las ventas entre diferentes categorías, proporcionando una comprensión rápida y efectiva de las tendencias de ventas y las preferencias de los clientes.</p>
+      <div className="statsCategory">
+        <h2>Categorias</h2>
+        <Pie
+          data={chartData}
+          ref={chartRef}
+          width={"600%"}
+          options={{
+            plugins: {
+              legend: {
+                labels: {
+                  color: "white", // Cambia el color del texto de la leyenda a blanco
+                },
               },
             },
-          },
-        }}
-      />
-    </div>
+          }}
+        />
+      </div>
+    </>
   );
 };
 

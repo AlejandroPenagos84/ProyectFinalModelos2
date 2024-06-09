@@ -3,6 +3,7 @@ import NavBar from "./NavBar/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import PieChart from "./Stats/StatsCategory";
+import PieChartCity from "./Stats/StatsCity"
 
 function App() {
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -25,7 +26,7 @@ function App() {
               <Routes>
                 <Route path="/" />
                 <Route path="/categoria" element={<PieChart />} />
-                <Route path="/SJF" />
+                <Route path="/ciudades" element={<PieChartCity/>}/>
               </Routes>
             </div>
           </div>

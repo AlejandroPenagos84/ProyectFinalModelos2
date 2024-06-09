@@ -19,4 +19,26 @@
 
 h2 {
   padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.statsCity {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: 25px;
+}
+
+.containerStatsCity{
+  display: flex;
+  flex-direction: column;
 }

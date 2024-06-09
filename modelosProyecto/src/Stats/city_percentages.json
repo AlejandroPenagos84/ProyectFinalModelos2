@@ -1,0 +1,88 @@
+[
+  {
+    "city": "Mandalay",
+    "percentage": 32.5437693099897,
+    "product_line": "Electronic accessories"
+  },
+  {
+    "city": "Mandalay",
+    "percentage": 32.926829268292686,
+    "product_line": "Fashion accessories"
+  },
+  {
+    "city": "Mandalay",
+    "percentage": 28.361344537815125,
+    "product_line": "Food and beverages"
+  },
+  {
+    "city": "Mandalay",
+    "percentage": 37.470725995316165,
+    "product_line": "Health and beauty"
+  },
+  {
+    "city": "Mandalay",
+    "percentage": 32.38199780461032,
+    "product_line": "Home and lifestyle"
+  },
+  { "city": "Mandalay", "percentage": 35, "product_line": "Sports and travel" },
+  {
+    "city": "Naypyitaw",
+    "percentage": 34.29454170957775,
+    "product_line": "Electronic accessories"
+  },
+  {
+    "city": "Naypyitaw",
+    "percentage": 37.91574279379157,
+    "product_line": "Fashion accessories"
+  },
+  {
+    "city": "Naypyitaw",
+    "percentage": 38.760504201680675,
+    "product_line": "Food and beverages"
+  },
+  {
+    "city": "Naypyitaw",
+    "percentage": 32.43559718969556,
+    "product_line": "Health and beauty"
+  },
+  {
+    "city": "Naypyitaw",
+    "percentage": 26.893523600439078,
+    "product_line": "Home and lifestyle"
+  },
+  {
+    "city": "Naypyitaw",
+    "percentage": 28.804347826086957,
+    "product_line": "Sports and travel"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 33.161688980432544,
+    "product_line": "Electronic accessories"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 29.15742793791574,
+    "product_line": "Fashion accessories"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 32.878151260504204,
+    "product_line": "Food and beverages"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 30.093676814988292,
+    "product_line": "Health and beauty"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 40.724478594950604,
+    "product_line": "Home and lifestyle"
+  },
+  {
+    "city": "Yangon",
+    "percentage": 36.19565217391305,
+    "product_line": "Sports and travel"
+  }
+]
