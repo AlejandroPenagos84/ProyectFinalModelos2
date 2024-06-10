@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import PieChart from "./Stats/StatsCategory";
 import PieChartCity from "./Stats/StatsCity"
+import  ETLExplanation from "./Stats/Etl"
 
 function App() {
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -24,7 +25,7 @@ function App() {
             />
             <div className="app-container">
               <Routes>
-                <Route path="/" />
+                <Route path="/" element={<ETLExplanation/>}/>
                 <Route path="/categoria" element={<PieChart />} />
                 <Route path="/ciudades" element={<PieChartCity/>}/>
               </Routes>
